@@ -80,7 +80,7 @@ $(document).ready(function(){
 
 	    $(window).scroll(function(){
 	    	//show more movies when the user scrolls to the bottom
-	    	if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {               
+	    	if($(window).scrollTop() + $(window).height() > $(document).height() - 5) {               
                pageNum++;
                url = "http://www.omdbapi.com/?type=movie&page="+pageNum+"&s="+searchText;
                $.ajax({
