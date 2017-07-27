@@ -8,4 +8,4 @@ An infinite-scrolling page of movies with Ajax from the [Open Movie Database(OMD
 [View my solution in your browser here](http://htmlpreview.github.io/?https://github.com/StefanieWang/ajax-infinite-scroll/blob/master/index.html) 
 
 Update: the [Open Movie Database(OMDB)](http://www.omdbapi.com/) is not free anymore, so the ajax call will not 
-search result back get without an api key.
+get any search result back without an api key.
